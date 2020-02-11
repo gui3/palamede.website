@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'scriptina_proregular';
+    src: url('Scriptina_Pro-webfont.eot');
+    src: url('Scriptina_Pro-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Scriptina_Pro-webfont.woff2') format('woff2'),
+         url('Scriptina_Pro-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

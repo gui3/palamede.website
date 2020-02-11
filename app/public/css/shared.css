@@ -1,0 +1,256 @@
+html, body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #0f0800;
+  color: #fffcf0;
+  font-family: chantelli_antiquaregular, serif;
+
+  min-height: 100%;
+  min-height: 100vh;
+}
+
+h1, h2, h3 {
+  color: #fea;
+}
+h1 {
+  line-height: 60px;
+  line-height: 2.5em;
+  font-size: 50px;
+  font-size: 3em;
+}
+h2 {
+  line-height: 30px;
+  line-height: 1.4em;
+  font-size: 30px;
+  font-size: 1.8em;
+}
+h3 {
+  line-height: 18px;
+  font-size: 18px;
+}
+
+section.ornamented {
+  padding: 1em;
+  border-width: 3px;
+  border-color: #fc5;
+  border-radius: 15px;
+  border-style: solid;
+  border-image-source: url('../images/ornaments/ornament1.png');
+  border-image-slice: 33%;
+  border-image-width: 30px;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+}
+
+header {
+  padding: 0 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  border-width: 0 0 3px 0;
+  border-color: #fc5;
+  border-radius: 15px;
+  border-style: groove;
+  -border-image-source: url('../images/ornaments/ornament1.png');
+  border-image-slice: 33%;
+  border-image-width: 30px;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+}
+
+/* LETTRINES -------------------------------------------------*/
+body .lettrine {
+  text-align: left;
+}
+body .lettrine::first-letter {
+  font-size: 60px;
+  font-size: 4em;
+  line-height: 60px;
+
+  float: left;
+  margin-right: 0.1em;
+
+  font-family: dearestregular, chantelli_antiquaregular, serif;
+  font-weight: normal;
+}
+body .lettrine.sealed::first-letter {
+  color: #fc0;
+  text-shadow: 0 0 0.3em #08f;
+  text-shadow: 0 0 0.3em #08f,
+    0 0 0.3em #08f;
+}
+body .lettrine.sealed.red::first-letter {
+  color: #fc0;
+  text-shadow: 0 0 0.3em #f00;
+  text-shadow: 0 0 0.3em #f00,
+    0 0 0.3em #08f;
+}
+@supports (initial-letter: 4) or (-webkit-initial-letter: 4) {
+  body .lettrine::first-letter {
+    -webkit-initial-letter: 4;
+    initial-letter: 4;
+    color: #FE742F;
+    font-weight: bold;
+
+    margin-right: 0.1em;
+    margin-top: 0;
+
+    float: none;
+  }
+}
+
+body .gothic {
+  font-family: dearest_openregular, chantelli_antiquaregular, serif;
+  font-weight: normal;
+}
+body .plume {
+  font-family: aquilinetworegular, chantelli_antiquaregular, serif;
+  font-weight: lighter;
+}
+body .flourish {
+  font-family: kingthings_flourishesregular;
+  font-weight: normal;
+}
+
+a {
+  font: inherit;
+  color: #fc5;
+  border-radius: 0.3em;
+  border-bottom: 0.1em solid #fc5;
+  text-decoration: none;
+}
+a.inherit {
+  font: inherit;
+  color: inherit;
+  border-radius: inherit;
+  border-bottom: inherit;
+  text-decoration: none;
+}
+a:hover, a.inherit:hover {
+  -text-shadow: 0.1em 0.1em 0.2em #fc5;
+  font-weight: bold;
+  color: #f00;
+  border-color: #f00;
+}
+
+article {
+  padding: 1em 3em;
+}
+
+.black {
+  color: #222 !important;
+}
+.glowing_blue {
+  text-shadow: 0 0 0.3em #08f;
+  text-shadow: 0 0 0.3em #08f,
+    0 0 0.3em #08f,
+    0 0 0.3em #08f;
+}
+.glowing_yellow {
+  text-shadow: 0 0 0.3em #fc5;
+  text-shadow: 0 0 0.3em #fc5,
+    0 0 0.3em #fc5,
+    0 0 0.3em #fc5;
+}
+.glowing_cream {
+  text-shadow: 0 0 0.3em #fea;
+  text-shadow: 0 0 0.3em #fea,
+    0 0 0.3em #fea,
+    0 0 0.3em #fea;
+}
+.glowing_red {
+  text-shadow: 0 0 0.3em #f00;
+  text-shadow: 0 0 0.3em #f00,
+    0 0 0.3em #f00;
+}
+
+.code {
+  overflow: auto;
+  background: #000205;
+  background: #ccc;
+  color: #222;
+  border-radius: 10px;
+  padding: 10px;
+  min-width: 150px;
+}
+
+.inline-block {
+  display: inline-block
+}
+
+.centered {
+  text-align: center;
+}
+
+.scroll_right {
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.parchment {
+  white-space: normal;
+
+  font-weight: bold;
+  color: #222;
+  font-size: 1.3em;
+
+  display: inline-block;
+  width: 20%;
+  -min-width: 100px;
+  -max-width: 200px;
+
+  padding: 40px 60px;
+  padding: 3em 5em;
+
+  background-image: url('../images/ornaments/parchment3.1.png');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: 100% 100%;
+}
+
+/* SCROLLBARS ---------------- */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  border: 1px solid #ca7;
+  background-color: #0f0800;
+  box-shadow: inset 0 0 6px #ca7;
+  box-shadow: inset 0 0 6px rgba(255,200,100,0.5);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #fc5;
+  background-image: -webkit-linear-gradient(135deg,
+                        transparent,
+                        #540 50%,
+                        transparent,
+                        transparent);
+  background-image: linear-gradient(135deg,
+                        transparent,
+                        #540 50%,
+                        transparent,
+                        transparent);
+  border-radius: 10px;
+  border: 1px solid #000;
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #fc0;
+}

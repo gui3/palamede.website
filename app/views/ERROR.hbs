@@ -1,0 +1,30 @@
+<section class="centered">
+  <h1 class="plume glowing_red">OUPS ! la machinerie est cassée</h1>
+  <h2>(erreur 500)</h2>
+
+
+
+  <article>
+    <p>
+      <a href="/">Tenter de retourner à l'accueil</a>
+    </p>
+    <p class="lettrine sealed red">
+      Il semblerait que le serveur ait connu une erreur.<br/>
+      Contacte le gérant du site ou le webmaster
+      et transmet lui le texte ci dessous.
+    </p>
+
+  </article>
+  <article class="">
+    <hr>
+    <h3>Stack de l'erreur</h3>
+
+    <pre class="code">
+      <code>{{err.stack}}</code>
+      <hr>
+      <code>ERROR MESSAGE : {{err.message}}</code>
+      <code>ERROR NAME : {{err.name}}</code>
+    </pre>
+
+  </article>
+</section>

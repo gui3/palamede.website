@@ -1,0 +1,46 @@
+<section>
+  <article class="lettrine sealed">
+    <p class="">Holà, étranger!</p>
+    <p>
+      Cherches tu la gloire ? l'argent ?<br/>
+      la reconnaissance ? ... ou l'amour peut être ?
+    </p>
+  </article>
+</section>
+
+<section class="centered ornamented">
+  <article class="img map fixedBck">
+    <h1 class="plume black glowing_yellow">
+      Bienvenue dans <br/>
+      l'univers de Palamède
+    </h1>
+  </article>
+</section>
+
+<section>
+  <article>
+    <p class="lettrine sealed">
+      Palamède est un monde pourtant jeune,
+      mais déjà riche de ses villes bouillonnantes,
+      de ses mers endiablées,
+      de ses landes arides que convoitent maintes nations rivales,
+      pour y imposer leurs politiques vérolées
+      ou une autocratie sanguinaire.
+    </p>
+    <p>
+      C'est la terre
+    </p>
+  </article>
+</section>
+{{#if news}}
+  <section class="ornamented">
+    <h2>
+      Dernières nouvelles du bourg -
+      <a href="/news">voir tout</a>
+    </h2>
+
+    <div class="scroll_right">
+      {{> newsList}}
+    </div>
+  </section>
+{{/if}}

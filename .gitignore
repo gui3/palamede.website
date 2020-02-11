@@ -1,3 +1,8 @@
+.env
+node_modules/*
+_drafts/*
+
+
 # Logs
 logs
 *.log

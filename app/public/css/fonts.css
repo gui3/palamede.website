@@ -1,0 +1,101 @@
+
+@font-face {
+    font-family: 'chantelli_antiquaregular';
+    src: url('fonts/chantelliantiqua_regular_macroman/Chantelli_Antiqua-webfont.eot');
+    src: url('fonts/chantelliantiqua_regular_macroman/Chantelli_Antiqua-webfont.eot?#iefix') format('embedded-opentype'),
+         /*url('Chantelli_Antiqua-webfont.woff2') format('woff2'),*/
+         url('fonts/chantelliantiqua_regular_macroman/Chantelli_Antiqua-webfont.woff') format('woff'),
+         url('fonts/chantelliantiqua_regular_macroman/Chantelli_Antiqua-webfont.ttf') format('truetype'),
+         url('fonts/chantelliantiqua_regular_macroman/Chantelli_Antiqua-webfont.svg#chantelli_antiquaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'freebooter_scriptregular';
+    src: url('fonts/freebooterscript_regular_macroman/freebooterscript-webfont.eot');
+    src: url('fonts/freebooterscript_regular_macroman/freebooterscript-webfont.eot?#iefix') format('embedded-opentype'),
+         /*url('fonts/freebooterscript_regular_macroman/freebooterscript-webfont.woff2') format('woff2'),*/
+         url('fonts/freebooterscript_regular_macroman/freebooterscript-webfont.woff') format('woff'),
+         url('fonts/freebooterscript_regular_macroman/freebooterscript-webfont.ttf') format('truetype'),
+         url('fonts/freebooterscript_regular_macroman/freebooterscript-webfont.svg#freebooter_scriptregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'dearestregular';
+    src: url('fonts/dearest_regular_macroman/Dearest-webfont.eot');
+    src: url('fonts/dearest_regular_macroman/Dearest-webfont.eot?#iefix') format('embedded-opentype'),
+         /*url('fonts/dearest_regular_macroman/Dearest-webfont.woff2') format('woff2'),*/
+         url('fonts/dearest_regular_macroman/Dearest-webfont.woff') format('woff'),
+         url('fonts/dearest_regular_macroman/Dearest-webfont.ttf') format('truetype'),
+         url('fonts/dearest_regular_macroman/Dearest-webfont.svg#dearestregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aquilinetworegular';
+    src: url('fonts/aquilinetwo_regular_macroman/AquilineTwo-webfont.eot');
+    src: url('fonts/aquilinetwo_regular_macroman/AquilineTwo-webfont.eot?#iefix') format('embedded-opentype'),
+         /*url('fonts/aquilinetwo_regular_macroman/AquilineTwo-webfont.woff2') format('woff2'),*/
+         url('fonts/aquilinetwo_regular_macroman/AquilineTwo-webfont.woff') format('woff'),
+         url('fonts/aquilinetwo_regular_macroman/AquilineTwo-webfont.ttf') format('truetype'),
+         url('fonts/aquilinetwo_regular_macroman/AquilineTwo-webfont.svg#aquilinetworegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'dearest_openregular';
+    src: url('fonts/dearestopen_regular_macroman/Dearest_open-webfont.eot');
+    src: url('fonts/dearestopen_regular_macroman/Dearest_open-webfont.eot?#iefix') format('embedded-opentype'),
+         /*url('fonts/dearestopen_regular_macroman/Dearest_open-webfont.woff2') format('woff2'),*/
+         url('fonts/dearestopen_regular_macroman/Dearest_open-webfont.woff') format('woff'),
+         url('fonts/dearestopen_regular_macroman/Dearest_open-webfont.ttf') format('truetype'),
+         url('fonts/dearestopen_regular_macroman/Dearest_open-webfont.svg#dearest_openregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'kingthings_flourishesregular';
+    src: url('fonts/kingthingsflourishes_regular_macroman/Kingthings_Flourishes-webfont.eot');
+    src: url('fonts/kingthingsflourishes_regular_macroman/Kingthings_Flourishes-webfont.eot?#iefix') format('embedded-opentype'),
+         /*url('Kingthings_Flourishes-webfont.woff2') format('woff2'),*/
+         url('fonts/kingthingsflourishes_regular_macroman/Kingthings_Flourishes-webfont.woff') format('woff'),
+         url('fonts/kingthingsflourishes_regular_macroman/Kingthings_Flourishes-webfont.ttf') format('truetype'),
+         url('fonts/kingthingsflourishes_regular_macroman/Kingthings_Flourishes-webfont.svg#kingthings_flourishesregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'mutlu_ornamental';
+    src: url('fonts/mutlu_ornamental_macroman/Mutlu__Ornamental-webfont.eot');
+    src: url('fonts/mutlu_ornamental_macroman/Mutlu__Ornamental-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/mutlu_ornamental_macroman/Mutlu__Ornamental-webfont.woff2') format('woff2'),
+         url('fonts/mutlu_ornamental_macroman/Mutlu__Ornamental-webfont.woff') format('woff'),
+         url('fonts/mutlu_ornamental_macroman/Mutlu__Ornamental-webfont.ttf') format('truetype'),
+         url('fonts/mutlu_ornamental_macroman/Mutlu__Ornamental-webfont.svg#mutlu_ornamental') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'scriptina_proregular';
+    src: url('fonts/scriptinapro_regular_macroman/Scriptina_Pro-webfont.eot');
+    src: url('fonts/scriptinapro_regular_macroman/Scriptina_Pro-webfont.eot?#iefix') format('embedded-opentype'),
+         /*url('Scriptina_Pro-webfont.woff2') format('woff2'),*/
+         url('fonts/scriptinapro_regular_macroman/Scriptina_Pro-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

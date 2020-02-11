@@ -1,0 +1,29 @@
+.img {
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  box-shadow: 0 0 100px #000 inset,
+    0 0 100px #0f0800 inset,
+    0 0 100px #0f0800 inset;
+  box-shadow: 0 0 100px 50px #0f0800 inset,
+    0 0 100px 90px #0f0800 inset;
+}
+.img.fixedBck {
+  background-attachment: fixed;
+}
+.img.map {
+  background-image:
+    url(
+      '../images/maps/fullmap_white.jpg'
+    );
+}
+.img.map_black {
+  background-image:
+    url(
+      '../images/maps/fullmap_black.jpg'
+    );
+}
