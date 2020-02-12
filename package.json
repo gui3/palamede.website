@@ -5,7 +5,8 @@
   "main": "app/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app/main.js"
+    "start": "node app/main.js",
+    "dev": "nodemon app/main.js"
   },
   "repository": {
     "type": "git",
@@ -25,5 +26,9 @@
     "intel": "^1.2.0",
     "serve-favicon": "^2.5.0",
     "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4",
+    "standard": "^14.3.1"
   }
 }

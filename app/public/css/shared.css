@@ -1,17 +1,7 @@
-html, body {
-  min-height: 100%;
-  margin: 0;
-  padding: 0;
-  position: relative
-}
-
 body {
   background: #0f0800;
   color: #fffcf0;
   font-family: chantelli_antiquaregular, serif;
-
-  min-height: 100%;
-  min-height: 100vh;
 }
 
 h1, h2, h3 {
@@ -22,6 +12,7 @@ h1 {
   line-height: 2.5em;
   font-size: 50px;
   font-size: 3em;
+  margin: 0;
 }
 h2 {
   line-height: 30px;
@@ -47,27 +38,47 @@ section.ornamented {
   border-image-repeat: stretch;
 }
 
-header {
-  padding: 0 2em;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-
+header div {
   border-width: 0 0 3px 0;
   border-color: #fc5;
   border-radius: 15px;
   border-style: groove;
-  -border-image-source: url('../images/ornaments/ornament1.png');
-  border-image-slice: 33%;
-  border-image-width: 30px;
+  border-image-source: url('../images/ornaments/ornament1.png');
+  border-image-slice: 0 0 33% 0;
+  border-image-width: 0 0 20px 0;
   border-image-outset: 0;
-  border-image-repeat: stretch;
+  border-image-repeat: round;
+
+}
+header {
+  background: #1f1810;
+  box-shadow: 0 5px 10px #654;
 }
 
 footer {
-  position: relative;
-  bottom: 0;
+  background: #222;
+  box-shadow: 0 50px 50px #0f0800 inset;
+  color: #999;
+}
+
+blockquote {
+  background: #fe9;
+  -border-radius: 15px 5px;
+  border-top: 7px solid #ec8;
+  border-right: 20px solid #b94;
+  border-bottom: 10px solid #a81;
+  border-left: 20px solid #db6;
+
+  color: #222;
+  -webkit-text-fill-color: #fa7;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #222;
+  font-size: 1.3em;
+  text-shadow: 0 0 3px #d82;
+  text-shadow: 0 0 3px #d82,
+    0 0 3px #d82,
+    0 0 3px #d82;
+  padding: 10px
 }
 
 /* LETTRINES -------------------------------------------------*/
@@ -145,10 +156,6 @@ a:hover, a.inherit:hover {
   border-color: #f00;
 }
 
-article {
-  padding: 1em 3em;
-}
-
 .black {
   color: #222 !important;
 }
@@ -204,15 +211,15 @@ article {
 
   font-weight: bold;
   color: #222;
-  font-size: 1.3em;
+  font-size: 1em;
 
   display: inline-block;
   width: 20%;
-  -min-width: 100px;
+  min-width: 150px;
   -max-width: 200px;
 
-  padding: 40px 60px;
-  padding: 3em 5em;
+  padding: 30px 35px;
+  -padding: 3em 2em;
 
   background-image: url('../images/ornaments/parchment3.1.png');
   background-repeat: no-repeat;
