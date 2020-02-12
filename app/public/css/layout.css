@@ -23,12 +23,14 @@ header div {
   align-items: center;
 }
 
-section.page-container {
+section.app-container {
   min-height: 100%;
   width: 100%;
   position: absolute;
+}
+section .page-container {
   padding-top: 100px;
-  padding-bottom: 200px;
+  padding-bottom: 150px;
 }
 
 footer {
