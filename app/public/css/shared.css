@@ -64,16 +64,16 @@ footer {
 blockquote {
   background: #fe9;
   -border-radius: 15px 5px;
-  border-top: 7px solid #ec8;
-  border-right: 20px solid #b94;
-  border-bottom: 10px solid #a81;
-  border-left: 20px solid #db6;
+  border-top: 3px solid #ec8;
+  border-right: 10px solid #b94;
+  border-bottom: 5px solid #a81;
+  border-left: 6px solid #db6;
 
   color: #222;
   -webkit-text-fill-color: #fa7;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #222;
-  font-size: 1.3em;
+  font-size: 1.1em;
   text-shadow: 0 0 3px #d82;
   text-shadow: 0 0 3px #d82,
     0 0 3px #d82,
