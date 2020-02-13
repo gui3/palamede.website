@@ -1,6 +1,7 @@
 .env
-node_modules/*
+_secret/*
 _drafts/*
+node_modules/*
 
 
 # Logs
