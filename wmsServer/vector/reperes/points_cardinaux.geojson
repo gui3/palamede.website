@@ -1,0 +1,16 @@
+{
+"type": "FeatureCollection",
+"name": "points_cardinaux",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4978" } },
+"features": [
+{ "type": "Feature", "properties": { "X": 0.0, "Y": 0.0, "id": null, "texte": "Point 0" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } },
+{ "type": "Feature", "properties": { "X": 0.0, "Y": -89.99999, "id": null, "texte": "Pole Sud" }, "geometry": { "type": "Point", "coordinates": [ 0.0, -89.99999 ] } },
+{ "type": "Feature", "properties": { "X": 0.0, "Y": 89.99999, "id": null, "texte": "Pole Nord" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 89.99999 ] } },
+{ "type": "Feature", "properties": { "X": -180.0, "Y": 0.0, "id": null, "texte": "Equateur Ouest" }, "geometry": { "type": "Point", "coordinates": [ -180.0, 0.0 ] } },
+{ "type": "Feature", "properties": { "X": 180.0, "Y": 0.0, "id": null, "texte": "Equateur Est" }, "geometry": { "type": "Point", "coordinates": [ 180.0, 0.0 ] } },
+{ "type": "Feature", "properties": { "X": -180.0, "Y": -89.99999, "id": null, "texte": "Sud Ouest" }, "geometry": { "type": "Point", "coordinates": [ -180.0, -89.99999 ] } },
+{ "type": "Feature", "properties": { "X": 180.0, "Y": -89.99999, "id": null, "texte": "Sud Est" }, "geometry": { "type": "Point", "coordinates": [ 180.0, -89.99999 ] } },
+{ "type": "Feature", "properties": { "X": -180.0, "Y": 89.99999, "id": null, "texte": "Nord Ouest" }, "geometry": { "type": "Point", "coordinates": [ -180.0, 89.99999 ] } },
+{ "type": "Feature", "properties": { "X": 180.0, "Y": 89.99999, "id": null, "texte": "Nord Est" }, "geometry": { "type": "Point", "coordinates": [ 180.0, 89.99999 ] } }
+]
+}
