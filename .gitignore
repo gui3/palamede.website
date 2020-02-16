@@ -3,6 +3,7 @@ _secret/*
 _drafts/*
 node_modules/*
 wmsServer/*
+wmsServer/
 
 
 # Logs
