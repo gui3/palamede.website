@@ -1,4 +1,4 @@
-const logger = require('./logger')
+const logger = require('../helpers/logger')
 
 function textErrorPage (handlerError, originalError, res) {
   // in case there is NO RENDERER

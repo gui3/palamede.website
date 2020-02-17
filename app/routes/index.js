@@ -1,6 +1,6 @@
 const router = require('express').Router()
 
-const logger = require('../utils/logger')
+const logger = require('../helpers/logger')
 // const autoRouter = require('./modules/autoRouter')
 
 // const root = 'home' // set here the page to launch at address '/'

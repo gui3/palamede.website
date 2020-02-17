@@ -6,9 +6,10 @@ const favicon = require('serve-favicon')
 // const partials = require('express-partials')
 const handlebars = require('express-handlebars')
 
-const logger = require('./utils/logger')
+const logger = require('./helpers/logger')
 const routes = require('./routes/index')
-const errorHandler = require('./utils/errorHandler')
+const errorHandler = require('./middlewares/errorHandler')
+const error404 = require('./middlewares/404')
 
 // Setup ---------------------------------------------------------------------
 const app = express()
@@ -37,7 +38,6 @@ app.use(favicon(path.join(
 app.use('/', routes)
 
 // 404 page not found ==========================================================
-const error404 = require('./utils/404')
 app.use(error404)
 
 // ERROR HANDLER =============================================================
@@ -47,5 +47,10 @@ const port = process.env.PORT || 3000
 app.listen(port, () => {
   logger.info('Server listening on port :' + port)
 })
+
+const cache = require('./helpers/cache')
+cache.get('test')
+  .then(data => console.log('cache.get:' + data))
+  .catch(err => { throw err })
 
 module.exports = app
