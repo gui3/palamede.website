@@ -27,7 +27,7 @@
     "intel": "^1.2.0",
     "memory-cache": "^0.2.0",
     "node-cache": "^5.1.0",
-    "redis": "^3.0.2",
+    "redis": "^3.1.1",
     "serve-favicon": "^2.5.0",
     "winston": "^3.2.1"
   },
